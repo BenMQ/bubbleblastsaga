@@ -1,0 +1,12 @@
+<html><head>
+    <script type="text/javascript">
+      var userAgent = window.navigator.userAgent;
+      if (userAgent.match(/iPad/i) || userAgent.match(/iPhone/i)) {
+        window.location = "blast://designer/" + window.location.search.substring(1)
+      }
+    </script>
+  </head>
+  <body>
+    <img src="logo.png">
+  </body>
+</html>
